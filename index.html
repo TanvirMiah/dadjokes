@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Axios Libary-->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!--Bootstrap 4-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Daddy Jokes</title>
+</head>
+<body>
+    <div id="mainBody">
+        <container class = "container-fluid">
+            <h1 class="display-3">Dad Jokes</h1>
+            <button type="button" id="jokeButton" class="btn btn-primary">Generate Joke</button>
+        
+            <p id="display" class="lead">Your joke will be displayed here</p>
+        
+            <p>History</p>
+            <ul id='history'></ul>
+        </container>
+    </div>
+   
+    <script src="app.js"></script>
+</body>
+</html>
